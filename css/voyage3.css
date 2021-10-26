@@ -1,0 +1,556 @@
+/*style header*/
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,100&display=swap');
+
+/*header*/
+header{
+    width: auto;
+    background: url(https://cdn.pixabay.com/photo/2018/05/07/22/08/opera-house-3381786_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    height: 450px;
+}
+.aust{
+    font-size: 50px;
+    font-family: 'Sarabun', sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 166px;
+}
+
+/*nav bar*/    
+header ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+  }
+  
+  header li {
+      
+      border-right: 1px solid black;
+    }
+  
+    header li:last-child {
+      border-right: none;
+    }
+    
+    header li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    header li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    header .deroulant1 {
+      text-align: right;
+    }
+  
+    header .deroulant2 {
+      text-align: right;
+    }
+  
+    header li a, .drop1 {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    header li a, .drop2 {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    header li a:hover, .deroulant1:hover .drop1 {
+      background-color: black;
+    }
+  
+    header li a:hover, .deroulant2:hover .drop2 {
+      background-color: black;
+    }
+    
+  header li .deroulant1 {
+      display: inline-block;
+    }
+  
+    header li .deroulant2 {
+      display: inline-block;
+    }
+    
+  .contenu-menu1 {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 136px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .contenu-menu2 {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 112px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+  .contenu-menu1 a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .contenu-menu2 a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+  .contenu-menu1 a:hover {background-color: black;}
+  
+  .contenu-menu2 a:hover {background-color: black;}
+    
+  .deroulant1:hover .contenu-menu1 {
+      display: block;
+    }
+  
+    .deroulant2:hover .contenu-menu2 {
+      display: block;
+    }
+  
+  .deroulant1 a {
+      border-bottom: 2px solid transparent;
+      padding: -7px 0px;
+      color: white;
+    }
+  
+    .deroulant2 a {
+      border-bottom: 2px solid transparent;
+      padding: -7px 0px;
+      color: white;
+    }
+  
+  .deroulant1 a:hover {
+      color: gold;
+      border-bottom: 2px solid gold;
+    }
+  
+    .deroulant2 a:hover {
+      color: gold;
+      border-bottom: 2px solid gold;
+    }
+/*bar*/
+.bar{
+    border: none;
+    background: rgb(83, 81, 81);
+    width: auto;
+    margin: -10px;
+    padding: 15px;
+}
+
+/*presentation*/
+.decouvrez{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.decouvrez:hover{
+    background: white;
+    color: red;
+    transform: scale(1.03);
+    transition: transform 1s;
+}
+#caroussel{
+    overflow: hidden;
+}
+#conteneur{
+    display: flex;
+    animation-duration: 30s;
+    animation-name: mesimage;
+    animation-iteration-count: infinite;
+}
+@keyframes mesimage {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.boite{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/02/Sydney-spots-immanquables-cote-est.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.boite2{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(https://cdn.pixabay.com/photo/2016/09/06/14/19/heart-reef-1649218_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#caroussel2{
+    overflow: hidden;
+}
+#conteneur2{
+    display: flex;
+    margin-top: 5px;
+    animation-duration: 30s;
+    animation-name: mesimage2;
+    animation-iteration-count: infinite;
+}
+@keyframes mesimage2 {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.boite3{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/02/spots-immanquables-brisbane.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.boite4{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/02/Uluru-coucher-soleil.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*bar2*/
+.bar2{
+    border: none;
+    background: rgb(83, 81, 81);
+    width: auto;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+/*sydney*/
+.sydney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#conteneur3{
+    display: flex;
+    justify-content: space-around;
+}
+.syd1{
+    box-sizing: content-box;
+    width: 25%;
+    height: 300px;
+    background: url(https://www.australia.com/content/dam/assets/photograph/digital/l/h/4/q/1001978.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 100px / 120px;
+}
+.syd1:hover{
+    transform: rotate(10deg);
+}
+.syd2{
+    box-sizing: content-box;
+    width: 25%;
+    height: 300px;
+    background: url(https://oudormirtop.com/wp-content/uploads/2019/08/oudormirsydney.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 100px / 120px;
+}
+.syd2:hover{
+    transform: rotate(-10deg);
+}
+.syd3{
+    box-sizing: content-box;
+    width: 25%;
+    height: 300px;
+    background: url(https://experitour.com/wp-content/uploads/2018/03/sydney-harbour-bridge.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 100px / 120px;
+}
+.syd3:hover{
+    transform: rotate(10deg);
+}
+
+/*barrière corail*/
+#conteneur4{
+    display: flex;
+}
+.corail2{
+    box-sizing: content-box;
+    width: 50%;
+    height: 250px;
+    margin-right: 6px;
+    background: url(https://www.wwf.fr/sites/default/files/styles/page_cover_large_16_9/public/2017-07/106664.jpg?h=7a91e25d&itok=70DL-a0d);
+    background-position: center;
+    background-size: cover;
+}
+.corail2:hover{
+    transform: scale(1.08)
+}
+.corail3{
+    box-sizing: content-box;
+    width: 50%;
+    height: 500px;
+    background: url(https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/02/Grande-barriere-de-Corail.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.corail3:hover{
+    transform: scale(1.06);
+}
+.corail4{
+    box-sizing: content-box;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -248px;
+    font-weight: bolder;
+}
+.corail5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/*parc national*/
+.parc{
+    border: none;
+    width: auto;
+    height: 200px;
+    border-radius: 6px;
+    background: url(https://www.thechic.us/wp-content/uploads/2017/06/5-1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 3px grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+}
+#conteneur5{
+    display: flex;
+}
+.parc2{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-decoration: overline;
+}
+.parc3{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(https://www.fodors.com/wp-content/uploads/2018/12/02_Uluru101__WhyisitsometimescalledAyersrock__dreamstime_xl_34710920.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 100px / 120px;
+}
+.parc3:hover{
+    transform: rotate(10deg);
+}
+#conteneur6{
+    display: flex;
+}
+.parc5{
+    box-sizing: content-box;
+    width: 50%;
+    height: 400px;
+    background: url(http://amoureuxvoyageux.com/wp-content/uploads/2015/05/IMGP2759-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px 10px / 120px;
+}
+.parc5:hover{
+    transform: rotate(-10deg);
+}
+
+/*kangarou island*/
+.kangarou{
+    border: none;
+    width: auto;
+    height: 200px;
+    border-radius: 6px;
+    background: url(https://www.australie-sur-mesure.com/uploads/sites/12/2018/12/iles-australiennes.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 3px grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+}
+.kanga{
+    display: flex;
+    justify-self: self-start;
+    font-weight: bolder;
+}
+#caroussel2{
+    overflow: hidden;
+}
+#conteneur7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    animation-duration: 30s;
+    animation-name: mesimage;
+    animation-iteration-count: infinite;
+}
+.kanga2{
+    box-sizing: content-box;
+    width: 20%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2021/08/24/07/57/kangaroo-6569883_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.kanga3{
+    box-sizing: content-box;
+    width: 20%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2017/08/07/22/35/animals-2608662_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kanga4{
+    box-sizing: content-box;
+    width: 20%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2013/03/14/10/48/fur-seal-93496_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kanga5{
+    box-sizing: content-box;
+    width: 20%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2019/06/05/07/41/animal-4253159_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.kanga6{
+    box-sizing: content-box;
+    width: 20%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2018/10/21/05/15/platypus-3762257_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*villes*/
+#conteneur8{
+    display: flex;
+}
+.Sydney{
+    width: 25%;
+    height: 100px;
+    background: url(https://www.gostudy.fr/wp-content/uploads/2018/09/SYD_header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.melbourne{
+    width: 25%;
+    height: 100px;
+    background: url(https://www.australia-australie.com/wp-content/uploads/2017/01/melbourne-05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.brisbane{
+    width: 25%;
+    height: 100px;
+    background: url(https://www.australia.com/content/dam/assets/image/jpeg/8/b/g/STO-QLD-102198.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.canberra{
+    width: 25%;
+    height: 100px;
+    background: url(https://i2.wp.com/voyageuraustralien.fr/wp-content/uploads/2018/11/viagem-de-um-dia-em-canberra-saindo-de-sydney-incluindo-casa-do-in-sydney-198614.jpg?fit=674%2C446);
+    background-position: center;
+    background-size: cover;
+}
+table{
+    margin-top: -25px;
+    margin-bottom: 5px;
+    width: 25%;
+}
+th{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background: black;
+}
+.video{
+    margin-top: 5px;
+}

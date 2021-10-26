@@ -1,0 +1,291 @@
+/*------- NAVBAR ------*/
+header ul {
+  margin-top: 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+    float: left;
+    border-right: 1px solid black;
+  }
+
+  header li:last-child {
+    border-right: none;
+  }
+  
+  header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .dll {
+    background-color: #FA2138;
+  }
+
+  header .deroulant1 {
+    text-align: right;
+  }
+
+  header .deroulant2 {
+    text-align: right;
+  }
+
+  header li a, .drop1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header li a, .drop2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header li a:hover, .deroulant1:hover .drop1 {
+    background-color: black;
+  }
+
+  header li a:hover, .deroulant2:hover .drop2 {
+    background-color: black;
+  }
+  
+header li .deroulant1 {
+    display: inline-block;
+  }
+
+  header li .deroulant2 {
+    display: inline-block;
+  }
+  
+.contenu-menu1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-menu2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.contenu-menu1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .contenu-menu2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.contenu-menu1 a:hover {background-color: black;}
+
+.contenu-menu2 a:hover {background-color: black;}
+  
+.deroulant1:hover .contenu-menu1 {
+    display: block;
+  }
+
+  .deroulant2:hover .contenu-menu2 {
+    display: block;
+  }
+
+.deroulant1 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .deroulant2 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+.deroulant1 a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+  }
+
+  .deroulant2 a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+  }
+/* ------- HEADER -------*/
+
+.titremaldives {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 200px;
+     text-align: center;
+     color: oldlace;
+     height:400px
+ }
+ .titresurimg {
+  position: relative;
+  width: 100%;}   
+        
+ .titremaldives {
+ position: absolute;
+ top: -19%;
+ left: 10%; }
+          
+ .titresurimg img {
+ width: 100%;}
+
+ /*------ MAIN -------*/
+
+ p{
+  font-family: 'Zen Old Mincho', serif;
+ }
+
+ .description {
+ border: orangered;
+width: 100%; }
+
+
+#descrip{
+  text-align: center;
+
+}
+
+#conseils { 
+        text-align: center;
+}
+
+h1 {
+  background-color: rgb(238, 225, 202);
+  color: white;
+}
+
+#afaire {
+  text-align: center;
+  margin: 17px;
+
+}
+
+.ytb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 17px;
+}
+
+         
+ div#slider {
+    width:100%;
+     overflow: hidden;
+     height: 600px;
+     animation-duration: 40s;
+     animation-iteration-count: infinite;
+    } 
+
+div#slider figure {
+       position: relative; 
+       width: 500%;
+       margin: 0;
+       padding: 0;
+       font-size: 0;
+       animation: 10s slidy infinite;
+     }
+
+div#slider figure img { 
+         width: 20%; 
+         height: 600px; 
+         
+       }
+
+@keyframes slidy {
+           0% { left: 0%; }
+           20% { left: 0%; }
+           25% { left: -100%; }
+           45% { left: -100%; }
+           50% { left: -200%; }
+           70% { left: -200%; }
+           75% { left: -300%; }
+           95% { left: -300%; }
+           100% { left: -400%; }
+         }
+
+         #imagess {
+           display: flex;
+           justify-content: space-around;
+         }
+
+         .img {
+           
+           border-radius: 40px / 15px;
+         }
+#imagess img:hover {
+          transform: rotate(5deg);
+         
+}   
+ 
+         .plat {
+           text-align: justify;
+           padding: 5px;
+         }
+/* ------FOOTER ------*/
+
+            form {
+              
+              margin: 0 auto;
+              width: 400px;
+              padding: 1em;
+              border: 1px solid #CCC;
+              border-radius: 1em;
+            }
+            
+            label {
+              
+              display: inline-block;
+              width: 90px;
+              text-align: right;
+            }
+
+            #footer {
+              display: flex;
+              flex-direction: row ;
+              justify-content: space-around;
+            }
+            .link {
+              box-sizing: content-box;
+              width: 25%;
+              height: 200px;
+            }
+            .pouete{
+              font-size: 2em;
+              color: rgb(19, 29, 49);
+            }
+            
+
+
+           

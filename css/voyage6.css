@@ -1,0 +1,890 @@
+body {
+background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1504/Kirkjufell_at_Night_Iceland-Windows_10_HD_Wallpaper_1366x768.jpg);
+background-size: 150%;
+}
+
+header {
+  background-size: 100%;
+  height: 25%;
+}
+
+header ul {
+  margin-top: 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(96, 235, 240), rgb(242, 246, 247));
+}
+header li {
+    float: left;
+    border-right: 1px solid black;
+  }
+
+  header li:last-child {
+    border-right: none;
+  }
+  
+  header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover:not(.active) {
+    background-color: white;
+  }
+
+  header .deroulant {
+    text-align: center;
+  }
+
+  header .deroulant1 {
+    text-align: right;
+  }
+
+  header .deroulant2 {
+    text-align: right;
+  }
+
+  .drop {
+    margin-right: 15px;
+  }
+
+  .drop1 {
+    margin-right: 15px;
+  }
+
+  .drop2 {
+    margin-right: 15px;
+  }
+
+  header li a, .drop {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 8px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  header li a, .drop1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  header li a, .drop2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header li a:hover, .deroulant:hover .drop {
+    background-color: white;
+  }
+
+  header li a:hover, .deroulant1:hover .drop1 {
+    background-color: white;
+  }
+
+  header li a:hover, .deroulant2:hover .drop2 {
+    background-color: white;
+  }
+
+  header li.deroulant {
+    display: inline-block;
+  }
+  
+header li.deroulant1 {
+    display: inline-block;
+  }
+
+  header li.deroulant2 {
+    display: inline-block;
+  }
+
+  .contenu-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.contenu-menu1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+
+  .contenu-menu2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.contenu-menu1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .contenu-menu2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.contenu-menu a:hover {background-color: black;}
+  
+.contenu-menu1 a:hover {background-color: black;}
+
+.contenu-menu2 a:hover {background-color: black;}
+
+.deroulant:hover .contenu-menu {
+  display: block;
+}
+  
+.deroulant1:hover .contenu-menu1 {
+    display: block;
+  }
+
+  .deroulant2:hover .contenu-menu2 {
+    display: block;
+  }
+
+  .deroulant a {
+    border-bottom: 2px solid transparent;
+    padding: 12px;
+    color: white;
+  }
+
+.deroulant1 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .deroulant2 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .deroulant a:hover {
+    color: grey;
+    border-bottom: 2px solid white;
+  }
+
+.deroulant1 a:hover {
+    color: grey;
+    border-bottom: 2px solid white;
+  }
+
+  .deroulant2 a:hover {
+    color: grey;
+    border-bottom: 2px solid white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #conteneur1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boite1 {
+    width: 33%;
+    color: white;
+  }
+
+  table {
+    border: 1.5px solid white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  table td {
+    width: 125px;
+    height: 25px;
+  }
+
+  table th {
+    height: 50px;
+  }
+
+  .boite2 {
+    width: 33%;
+  }
+
+  .boite2 h3 {
+    text-align: center;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .boite2 p {
+    text-align: justify;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    justify-self: center;
+    color: white;
+  }
+
+  .boite3 {
+    width: 33%;
+    height: 50px;
+  }
+
+  .boite3 img {
+    height: 250px;
+    margin-left: 200px;
+  }
+
+  #conteneur2 {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+  }
+
+  #islande {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .liste {
+    border: 2px solid white;
+    color: white;
+    margin-top: 5px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, rgb(47, 47, 82), blue)
+  }
+
+  #islande .liste ol {
+    text-align: center;
+    color: white;
+  }
+
+  #islande1 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: 75%;
+    height: 20%;
+    border: 3px solid white;
+  }
+
+  .lagune {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+  }
+
+  .lagune p {
+    padding: 10px;
+    margin-top: 25px;
+  }
+
+  .lagune-photos {
+    width: 50%; max-width: 1000%;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .lagune-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 15s slidy infinite;
+  }
+
+  .lagune-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #islande2 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://www.voyageway.com/wp-content/uploads/2019/01/geysir-cercle-d-or-islande.jpg);
+    background-size: 100%;
+    height: 20%;
+    border: 3px solid white;
+  }
+
+  .cercle {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+  }
+
+  .cercle p {
+    padding: 10px;
+    margin-top: 75px;
+  }
+
+  .cercle-photos {
+    width: 57%; max-width: 1000%;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .cercle-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 15s slidy infinite;
+  }
+
+  .cercle-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #islande3 {
+    overflow: hidden;
+    margin: -7px;
+    background-image: url(https://guidetoiceland.imgix.net/331325/x/0/);
+    background-size: 100%;
+    height: 20%;
+    border: 2px solid white;
+}
+
+#islande3 p {
+  font-size: 65px;
+  text-align: center;
+  text-decoration: underline white;
+  color: white;
+}
+
+.silfra {
+    display: flex;
+    size: 10px;
+    animation-duration: 30s;
+    animation-name: mesimage;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesimage {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-1500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+#islande4 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(http://wildbirdscollective.com/wp-content/uploads/2015/08/WBC-Islande-Myvatn-1.jpg);
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+.myvatn {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.myvatn p {
+  padding: 10px;
+  margin-top: 25px;
+  color: black;
+}
+
+.myvatn-photos {
+  width: 50%; max-width: 1000%;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.myvatn-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.myvatn-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#islande5 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://s1.1zoom.me/big0/422/Iceland_Mountains_Ice_581790_1280x853.jpg);
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+.volcan {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.volcan p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.volcan-photos {
+  width: 57%; max-width: 1000%;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.volcan-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.volcan-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#islande6 {
+  overflow: hidden;
+  margin: -7px;
+  background-image: url(https://cdn.getyourguide.com/img/location/58ac254fe0dcb.jpeg/92.jpg);
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+#islande6 p {
+font-size: 65px;
+text-align: center;
+text-decoration: underline white;
+color: white;
+}
+
+.chutes {
+  display: flex;
+  size: 10px;
+  animation-duration: 30s;
+  animation-name: mesimage;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mesimage {
+  0%{
+      transform: translateX(0);
+  }
+  50%{
+      transform: translateX(-1500px);
+  }
+  100%{
+      transform: translateX(0);
+  }
+}
+
+#islande7 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7ECCE;
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+#islande7 p {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 65px;
+  color: white;
+}
+
+.cascade {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.cascade p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.cascade-photos {
+  width: 57%; max-width: 1000%;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.cascade-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.cascade-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.cascade2 {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.cascade2 p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.cascade2-photos {
+  width: 57%; max-width: 1000%;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.cascade2-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.cascade2-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#islande8 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://quartier-libre.agence.voyage/assets/img/site/173/uploads/visite/reykjavik1.jpg);
+  background-size: 75%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+.cities {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.cities p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.cities-photos {
+  width: 50%; max-width: 1000%;
+  overflow: hidden;
+  margin-top: 25px;
+  margin: 10px;
+}
+
+.cities-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.cities-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#islande9 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://islande24.fr/wp-content/uploads/2016/06/1-11.jpg);
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+  margin: 10px;
+}
+
+.fjord {
+width: 50%;
+font-size: 65px;
+text-decoration: underline white;
+text-align: center;
+color: white;
+padding: 25px;
+margin-top: 60px;
+}
+
+.fjord p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.fjord-photos {
+  width: 57%; max-width: 1000%;
+  overflow: hidden;
+  margin-top: 25px;
+  margin: 10px;
+}
+
+.fjord-photos figure {
+position: relative; 
+width: 500%;
+margin: 0;
+padding: 0;
+font-size: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}
+
+.fjord-photos figure img {
+  width: 20%; height: auto; float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#islande10 {
+  overflow: hidden;
+  margin: -7px;
+  background-image: url(https://journalmetro.com/wp-content/uploads/2019/07/800px-Breidamerkurjoekull.jpg?fit=800%2C534&resize=1200,630);
+  background-size: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+
+#islande10 p {
+font-size: 65px;
+text-align: center;
+text-decoration: underline white;
+color: white;
+}
+
+.skaf {
+  display: flex;
+  size: 10px;
+  animation-duration: 30s;
+  animation-name: mesimage;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mesimage {
+  0%{
+      transform: translateX(0);
+  }
+  50%{
+      transform: translateX(-1500px);
+  }
+  100%{
+      transform: translateX(0);
+  }
+}
+
+.bouton {
+display: flex;
+justify-content: center;
+align-self: center;
+}
+
+.bouton a {
+  display:block;
+  width: 190px;
+  line-height:50px;
+  background: black;
+  text-align: center;
+  color:white;
+  text-decoration:none;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 50px;
+  }

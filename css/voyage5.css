@@ -1,0 +1,715 @@
+header {
+  background-image: url(https://thumbs.dreamstime.com/b/mexico-sign-beach-37378475.jpg);
+  background-size: 100%;
+  height: 500px;
+}
+
+header ul {
+  margin-top: 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.cancun {
+  color: #006847;
+}
+
+.tulum {
+  color: #ffffff;
+}
+
+.acapulco {
+  color: #CE1126;
+}
+
+i {
+  margin-right: 50px;
+}
+  
+  header li {
+    float: left;
+    border-right: 1px solid black;
+  }
+
+  header li:last-child {
+    border-right: none;
+  }
+  
+  header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  header .deroulant1 {
+    text-align: right;
+  }
+
+  header .deroulant2 {
+    text-align: right;
+  }
+
+  .drop1 {
+    margin-right: 15px;
+  }
+
+  .drop2 {
+    margin-right: 15px;
+  }
+
+  header li a, .drop1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header li a, .drop2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header li a:hover, .deroulant1:hover .drop1 {
+    background-color: black;
+  }
+
+  header li a:hover, .deroulant2:hover .drop2 {
+    background-color: black;
+  }
+  
+header li.deroulant1 {
+    display: inline-block;
+  }
+
+  header li.deroulant2 {
+    display: inline-block;
+  }
+  
+.contenu-menu1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-menu2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.contenu-menu1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .contenu-menu2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.contenu-menu1 a:hover {background-color: black;}
+
+.contenu-menu2 a:hover {background-color: black;}
+  
+.deroulant1:hover .contenu-menu1 {
+    display: block;
+  }
+
+  .deroulant2:hover .contenu-menu2 {
+    display: block;
+  }
+
+.deroulant1 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .deroulant2 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+.deroulant1 a:hover {
+    color: grey;
+    border-bottom: 2px solid white;
+  }
+
+  .deroulant2 a:hover {
+    color: grey;
+    border-bottom: 2px solid white;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  td {
+    text-align: center;
+    width: 150px;
+    border: 1px solid red;
+  }
+
+  #cancun1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006847;
+    padding: 20px;
+  }
+
+  #cancun1 .tableau table {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: white;
+  }
+
+  #cancun1 .liste {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #cancun1 .liste h2 {
+    text-align: center;
+  }
+
+  #cancun1 .liste a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+
+  #cancun2 {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+
+  .pintores h3 {
+    text-align: center;
+  }
+
+  .pintores {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 5px;
+    width: 50%;
+  }
+
+  .pintores-photos {
+    width: 50%; max-width: 1000%;
+    overflow: hidden;
+    margin-top: 25px;
+  }
+
+  .pintores-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .pintores-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #cancun3 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+  }
+
+  .zona-hotelera h3 {
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .zona-hotelera {
+    text-align: center;
+    width: 50%;
+    margin-top: 150px;
+  }
+
+  .zona-photos {
+    width: 50%; max-width: 1000%;
+    overflow: hidden;
+    margin-top: 35px;
+  }
+
+  .zona-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .zona-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #cancun4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+  }
+
+  .mujeres {
+    text-align: center;
+  }
+
+  .mujeres-photos {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .mujeres-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .mujeres-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  .mujeres-photos2 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .mujeres-photos2 figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .mujeres-photos2 figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #cancun5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+  }
+
+  .carmen {
+    text-align: center;
+  }
+
+  .carmen-photos {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .carmen-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .carmen-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  .carmen-photos2 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .carmen-photos2 figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .carmen-photos2 figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #tulum1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006847;
+    padding: 20px;
+  }
+
+  #tulum1 .tableau2 table {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: white;
+  }
+
+  #tulum1 .liste-tulum {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #tulum1 .liste-tulum h2 {
+    text-align: center;
+  }
+
+  #tulum1 .liste-tulum a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+
+  #tulum2 {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+  }
+
+  #tulum2 p {
+    color: black;
+    text-align: center;
+  }
+
+  .tulum-photos1 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+
+  .tulum-photos2 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .tulum-photos2 figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .tulum-photos2 figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #tulum4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .tulum-photos3 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .tulum-photos3 figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .tulum-photos3 figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  .tulum-photos4 {
+    width: 25%; max-width: 1000%;
+    overflow: hidden;
+  }
+
+  .tulum-photos4 figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .tulum-photos4 figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #acapulco1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006847;
+    padding: 20px;
+  }
+
+  #acapulco2 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 0.5px solid rgb(194, 190, 190);
+    border-radius: 15px;
+  }
+
+  .acapulco h3 {
+    text-align: center;
+  }
+
+  .acapulco {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 5px;
+    width: 50%;
+    color: black;
+  }
+
+  .acapulco-photos {
+    width: 50%; max-width: 1000%;
+    height: 1000px;
+    overflow: hidden;
+    margin-top: 25px;
+  }
+
+  .acapulco-photos figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  }
+
+  .acapulco-photos figure img {
+    width: 20%; height: auto; float: left;
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  #acapulco1 .tableau3 table {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+  }
+
+  #acapulco1 .liste-acapulco {
+    border: 2px solid #CE1126;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #acapulco1 .liste-acapulco h2 {
+    text-align: center;
+  }
+
+  #acapulco1 .liste-acapulco a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer {
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  #pied {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer p {
+    font-size: 45px;
+  }

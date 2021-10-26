@@ -1,0 +1,548 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+    width: 150px;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+header .europe {
+  text-align: center;
+}
+
+header .afrique {
+  text-align: center;
+}
+
+header .amerique {
+  text-align: center;
+}
+
+header .asie {
+  text-align: center;
+}
+
+header .oceanie {
+  text-align: center;
+}
+
+  header .deroulant1 {
+    text-align: left;
+  }
+
+  header .deroulant2 {
+    text-align: left;
+  }
+
+  li a, .europe1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .afrique1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .amerique1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .asie1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .oceanie1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .drop1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a, .drop2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .europe:hover .europe1 {
+    background-color: black;
+  }
+
+  li a:hover, .afrique:hover .afrique1 {
+    background-color: black;
+  }
+
+  li a:hover, .amerique:hover .amerique1 {
+    background-color: black;
+  }
+
+  li a:hover, .asie:hover .asie1 {
+    background-color: black;
+  }
+
+  li a:hover, .oceanie:hover .oceanie1 {
+    background-color: black;
+  }
+
+  li a:hover, .deroulant1:hover .drop1 {
+    background-color: black;
+  }
+
+  li a:hover, .deroulant2:hover .drop2 {
+    background-color: black;
+  }
+
+  li.europe {
+    display: inline-block;
+  }
+
+  li.afrique {
+    display: inline-block;
+  }
+
+  li.amerique {
+    display: inline-block;
+  }
+
+  li.asie {
+    display: inline-block;
+  }
+
+  li.oceanie {
+    display: inline-block;
+  }
+  
+li.deroulant1 {
+    display: inline-block;
+  }
+
+  li.deroulant2 {
+    display: inline-block;
+  }
+
+  .contenu-europe {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-afrique {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-amerique {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-asie {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-oceanie {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.contenu-menu1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-menu2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .contenu-europe a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .contenu-afrique a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .contenu-amerique a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .contenu-asie a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .contenu-oceanie a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+.contenu-menu1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .contenu-menu2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.contenu-europe a:hover {background-color: black;}
+
+.contenu-afrique a:hover {background-color: black;}
+
+.contenu-amerique a:hover {background-color: black;}
+
+.contenu-asie a:hover {background-color: black;}
+
+.contenu-oceanie a:hover {background-color: black;}
+  
+.contenu-menu1 a:hover {background-color: black;}
+
+.contenu-menu2 a:hover {background-color: black;}
+
+
+.europe:hover .contenu-europe {
+  display: block;
+}
+
+.afrique:hover .contenu-afrique {
+  display: block;
+}
+
+.amerique:hover .contenu-amerique {
+  display: block;
+}
+
+.asie:hover .contenu-asie {
+  display: block;
+}
+
+.oceanie:hover .contenu-oceanie {
+  display: block;
+}
+  
+.deroulant1:hover .contenu-menu1 {
+    display: block;
+  }
+
+  .deroulant2:hover .contenu-menu2 {
+    display: block;
+  }
+
+  .europe a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .afrique a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .amerique a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .asie a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .oceanie a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+.deroulant1 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .deroulant2 a {
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .europe a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  .afrique a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  .amerique a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  .asie a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  .oceanie a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+.deroulant1 a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  .deroulant2 a:hover {
+    color: rgb(55, 31, 187);
+    border-bottom: 2px solid rgb(55, 31, 187);
+  }
+
+  #background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    h1, h2, #btnVideo{
+    
+    color: white;
+    
+    font-family: Trebuchet MS;
+    
+    font-weight: bold;
+    
+    text-align: center;
+    
+    }
+
+    .content {
+      margin-bottom: 100px;
+    }
+    
+    h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    }
+    
+    h2 { font-size: 3rem; }
+
+    #container {
+      margin: 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  form {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+  }
+  
+  form h1 {
+      font-size: 40px;
+      color: black;
+  }
+  
+  form .ligne {
+      width: 100%;
+      height: 1px;
+      background-color: #050505;
+  }
+  
+  form .corps {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 35px;
+  }
+  
+  form .corps .abc {
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  form .corps .droite {
+      margin-right: 10px;
+  }
+  
+  form .corps .droite .abc {
+      height: 100%;
+  }
+  
+  form .corps .droite .abc textarea {
+      margin-top: 5px;
+      border-radius: 15px;
+      padding: 100px;
+      background-color: #E1DCDC;
+      outline: none;
+      resize: none;
+      height: 75%;
+  }
+
+  label {
+    text-align: center;
+  }
+  
+  form .pied button {
+  margin-bottom: 150px;
+  margin-right: 20px;
+  background-color: #7506b4;
+  color: black;
+  font-size: 15px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+  }
+  
+  form .pied button:hover {
+   transform: scale(1.05);
+  }
+  
+  button {
+      margin-top: 10px;
+      background-color: #F2F4F4;
+      color: black;
+      font-size: 25px;
+      border: none;
+      height: 50px;
+      border-radius: 15px;
+      padding: 10px 20px;
+      outline: none;
+      cursor: pointer;
+      transition: transform 0.5s;  
+  }
+
+#tonbou {
+  display: flex;
+  justify-content: center;
+}
+
+.pied {
+  margin-bottom: 25px;
+}
